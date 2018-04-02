@@ -1,0 +1,41 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (5.0.6)
+      activesupport (= 5.0.6)
+    activerecord (5.0.6)
+      activemodel (= 5.0.6)
+      activesupport (= 5.0.6)
+      arel (~> 7.0)
+    activerecord-jdbc-adapter (50.0)
+      activerecord (>= 2.2)
+    activerecord-jdbcsqlite3-adapter (50.0)
+      activerecord-jdbc-adapter (~> 50.0)
+      jdbc-sqlite3 (~> 3.8, < 3.30)
+    activesupport (5.0.6)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    arel (7.1.4)
+    concurrent-ruby (1.0.5-java)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
+    jdbc-sqlite3 (3.20.1)
+    minitest (5.11.3)
+    thread_safe (0.3.6-java)
+    tzinfo (1.2.5)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  activerecord (= 5.0.6)
+  activerecord-jdbcsqlite3-adapter (= 50.0)
+
+RUBY VERSION
+   ruby 2.3.3p0 (jruby 9.1.15.0)
+
+BUNDLED WITH
+   1.16.1
